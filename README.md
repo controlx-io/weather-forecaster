@@ -11,7 +11,7 @@ npm install weather-forecaster
 ## Usage
 
 ```javascript
-const { getForecast, getPlaceList } = require('weather-forecast-lib');
+const { getForecast, getPlaceList } = require('weather-forecaster');
 
 const filename = "IDN11060.xml";
 const placeName = "The Entrance";
