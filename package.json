@@ -1,0 +1,26 @@
+{
+    "name": "weather-forecaster",
+    "version": "1.0.0",
+    "description": "A library to process weather forecast data from The Bureau of Meteorology Anonymous FTP server.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/controlx-io/weather-forecaster.git"
+      },
+    "keywords": [
+        "weather",
+        "forecast",
+        "ftp",
+        "xml",
+        "json"
+    ],
+    "author": "Hong Qiu",
+    "license": "ISC",
+    "dependencies": {
+        "basic-ftp": "^5.0.5",
+        "xml2js": "^0.6.2"
+    }
+}
